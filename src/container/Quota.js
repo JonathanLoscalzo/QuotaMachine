@@ -1,8 +1,8 @@
 import React from "react";
 import * as Bootstrap from 'reactstrap';
 import api from '../api/api-quota';
-import { QuoteText } from "../components/QuoteText";
-import { QuoteAuthor } from "../components/QuoteAuthor";
+import QuoteText  from "../components/QuoteText";
+import QuoteAuthor from "../components/QuoteAuthor";
 
 export default class Quota extends React.Component {
     state = {
