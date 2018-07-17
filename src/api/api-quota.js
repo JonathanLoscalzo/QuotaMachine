@@ -1,10 +1,10 @@
 import axios from 'axios';
 
 let apiQuota = axios.create({
-    baseURL: "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&", //'https://andruxnet-random-famous-quotes.p.mashape.com/',
+    baseURL: 'https://andruxnet-random-famous-quotes.p.mashape.com/',
     timeout: 10000,
     headers: {
-        "Access-Control-Allow-Origin": "*",
+        'X-Mashape-Key': 'V3CrnZTQbxmshIpB64jT2DExTGQSp1nudQ7jsnVoZJids15unC',
         "Content-Type": "application/x-www-form-urlencoded",
         "Accept": "application/json"
     }
